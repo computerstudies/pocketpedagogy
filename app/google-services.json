@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1042900634661",
+    "firebase_url": "https://pocketpedagogy.firebaseio.com",
+    "project_id": "pocketpedagogy",
+    "storage_bucket": "pocketpedagogy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042900634661:android:bee730b9054f0008",
+        "android_client_info": {
+          "package_name": "com.infrontofthenet.pocketpedagogy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042900634661-18dlppfsph166b2b6h32f38kktipob4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.infrontofthenet.pocketpedagogy",
+            "certificate_hash": "eb617df09c7a78cc82bad20aeb130c2289a6b39f"
+          }
+        },
+        {
+          "client_id": "1042900634661-te8dotv71gh5bp23c3tf9gjdc9hghvni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzfNX7Yyv7UhuVpen6hktIRzqy8hu-UN8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042900634661-te8dotv71gh5bp23c3tf9gjdc9hghvni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
