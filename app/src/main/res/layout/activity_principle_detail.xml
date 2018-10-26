@@ -17,15 +17,23 @@
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
+            style="@style/Base.TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
+            android:isScrollContainer="true"
+            android:keepScreenOn="true"
+            android:paddingLeft="@dimen/padLeft"
+            android:paddingRight="@dimen/padLeft"
             app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleGravity="fill_vertical"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            app:toolbarId="@+id/toolbar">
+            app:toolbarId="@+id/toolbar"
+            tools:layout_height="@android:dimen/notification_large_icon_height">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/detail_toolbar"
+                style="?android:attr/textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
@@ -49,6 +57,7 @@
         android:layout_margin="@dimen/fab_margin"
         app:layout_anchor="@+id/principle_detail_container"
         app:layout_anchorGravity="top|end"
-        app:srcCompat="@android:drawable/stat_notify_chat" />
+        app:srcCompat="@android:drawable/stat_notify_chat"
+        android:visibility="gone"/>
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,8 +1,10 @@
 package com.infrontofthenet.pocketpedagogy;
 
 import android.app.Activity;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -50,6 +52,10 @@ public class PrincipleDetailFragment extends Fragment {
             CollapsingToolbarLayout appBarLayout = (CollapsingToolbarLayout) activity.findViewById(R.id.toolbar_layout);
             if (appBarLayout != null) {
                 appBarLayout.setTitle(mItem.content);
+
+                appBarLayout.setCollapsedTitleTextAppearance(R.style.CollapsedAppBar);
+                appBarLayout.setExpandedTitleTextAppearance(R.style.ExpandedAppBar);
+
             }
         }
     }
